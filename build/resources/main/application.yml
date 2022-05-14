@@ -6,7 +6,7 @@ server:
   port: 333
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/chiluminati?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/airplanestore?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
     username: root
     password: Shrestha12
   jpa:
