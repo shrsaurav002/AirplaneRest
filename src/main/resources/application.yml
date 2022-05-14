@@ -1,0 +1,17 @@
+application:
+  name: Airplane Store
+---
+profiles: local
+server:
+  port: 333
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/chiluminati?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: Shrestha12
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
+        format_sql: true
